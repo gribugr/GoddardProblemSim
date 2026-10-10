@@ -95,6 +95,24 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
+# ==========================================
+# Visual Studio Code (VS Code) Exclusions
+# ==========================================
+# Ignore the entire .vscode folder by default
+.vscode/*
+
+# Ignore workspace files and extensions
+*.code-workspace
+*.vsix
+
+
+# ==========================================
+# Visual Studio (Full IDE) Exclusions
+# ==========================================
+.vs/
+DerivedData/
+.vsconfig
+
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
 #
@@ -132,6 +150,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -176,3 +195,6 @@ sysinfo.txt
 /[Aa]ssets/[Nn]u[Gg]et.config
 !/[Aa]ssets/packages.config
 !/[Aa]ssets/NuGet.config
+
+# 3. Игнорируем packages-lock.json
+Packages/packages-lock.json
